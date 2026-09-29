@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /partials/
+
+Sitemap: https://redditchastro.org.uk/sitemap.xml

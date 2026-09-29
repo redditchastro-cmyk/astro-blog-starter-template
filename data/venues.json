@@ -1,0 +1,63 @@
+[
+  {
+    "id": "windmill-centre",
+    "name": "Windmill Community Centre",
+    "room": "Small Hall",
+    "address": "Rye Grass Lane",
+    "town": "Redditch",
+    "postcode": "B97 5YE",
+    "mapUrl": "https://maps.app.goo.gl/gmyiuphbixiV6XCX8",
+    "parking": "",
+    "accessibility": "",
+    "notes": "Usual monthly meeting venue. Name, address (Rye Grass Ln, Redditch B97 5YE) and map link confirmed by Nic on 29 Sep 2026. Parking and accessibility still to be confirmed."
+  },
+  {
+    "id": "meadow-farm",
+    "name": "Meadow Farm",
+    "room": "",
+    "address": "Dagnell End Road",
+    "town": "Redditch",
+    "postcode": "B98 9BJ",
+    "mapUrl": "",
+    "parking": "Free parking is available.",
+    "accessibility": "",
+    "notes": "Address and free parking taken from the Eventbrite listing for 6 October 2026 (checked 29 September 2026). Accessibility to be confirmed."
+  },
+  {
+    "id": "morton-stanley",
+    "name": "Morton Stanley Park café",
+    "room": "",
+    "address": "",
+    "town": "Redditch",
+    "postcode": "",
+    "mapUrl": "",
+    "parking": "",
+    "accessibility": "",
+    "notes": "Used for public observing sessions. Old site calls it 'Morton Stanley Cafe'. Address/postcode to be confirmed."
+  },
+  {
+    "id": "national-space-centre",
+    "name": "National Space Centre",
+    "room": "",
+    "address": "",
+    "town": "Leicester",
+    "postcode": "",
+    "mapUrl": "",
+    "parking": "",
+    "accessibility": "",
+    "notes": "Society trip, May 2026."
+  },
+  {
+    "id": "online",
+    "name": "Online",
+    "online": true,
+    "room": "",
+    "address": "",
+    "town": "",
+    "postcode": "",
+    "mapUrl": "",
+    "parking": "",
+    "accessibility": "",
+    "notes": "For talks delivered entirely online (for example by Zoom)."
+  }
+]

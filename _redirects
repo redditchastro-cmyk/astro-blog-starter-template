@@ -1,0 +1,10 @@
+# Cloudflare Pages redirects: old v1 URLs -> new v2 pages (301 = permanent).
+# Cloudflare already redirects /index.html to / and drops ".html" automatically.
+/about.html                 /about/                                        301
+/privacy.html               /privacy/                                      301
+/eclipse.html               /events/2026/eclipse-photograph-competition/  301
+/eclipse-entry.html         /events/2026/eclipse-photograph-competition/  301
+/eclipse-gallery.html       /events/2026/eclipse-photograph-competition/  301
+/poetry.html                /community/poetry/                             301
+/community                  /community/poetry/                             302
+/community/                 /community/poetry/                             302

@@ -1,0 +1,70 @@
+/* ==========================================================================
+   RAS colour theme
+   Colours taken from the current redditchastro.org.uk site ("Theory" theme):
+   RAS blue #5385c1, darker blues #4278b8 / #3a6ba6, pale blue #bacee6,
+   nav blue-white #d4e0ef, greys #555 / #5a5a5a / #dbdbdb, white background.
+   Text greys are slightly darker than the old site's #9a9a9a so body text
+   meets WCAG AA contrast.
+
+   To re-colour the whole site, change the values here. style.css only
+   handles layout and uses these variables.
+   ========================================================================== */
+
+:root {
+  /* brand */
+  --ras-blue: #5385c1;          /* headings, accents, borders */
+  --ras-blue-dark: #4278b8;     /* buttons, blue bands, small headings */
+  --ras-blue-deeper: #3a6ba6;   /* links and button hover (AA on white) */
+  --ras-blue-light: #6692c8;
+  --ras-blue-pale: #bacee6;
+  --ras-blue-wash: #eef3fa;     /* tinted panels and badges */
+
+  /* page */
+  --bg: #ffffff;
+  --bg-alt: #f5f8fc;
+  --text: #555555;
+  --text-strong: #333333;
+  --text-muted: #6b6b6b;
+  --heading: var(--ras-blue);
+  --heading-small: var(--ras-blue-dark);
+  --link: var(--ras-blue-deeper);
+  --link-hover: var(--ras-blue-dark);
+  --border: #dbdbdb;
+  --border-strong: #c3cfdf;
+
+  /* night sky (header, hero banner, mobile menu) */
+  --space: #0b1526;
+  --space-2: #13233d;
+  --space-text: #ffffff;
+  --space-text-muted: #d4e0ef;
+  --space-accent: #8fb3e0;
+
+  /* blue feature band (like the old site's "style1" sections) */
+  --band-bg: var(--ras-blue-dark);
+  --band-text: #ffffff;
+  --band-text-muted: #e8f0f9;
+
+  /* buttons */
+  --btn-primary-bg: var(--ras-blue-dark);
+  --btn-primary-bg-hover: var(--ras-blue-deeper);
+  --btn-primary-text: #ffffff;
+  --btn-secondary-bg: #5a5a5a;
+  --btn-secondary-bg-hover: #4d4d4d;
+  --btn-secondary-text: #ffffff;
+
+  /* states */
+  --focus: #f0b429;
+  --warn: #b7791f;
+  --warn-bg: #fff8e6;
+
+  /* event type badges (text on tint, all AA) */
+  --badge-meeting-bg: #e3ecf7;      --badge-meeting-text: #2f5d93;
+  --badge-public-bg: #ece6f7;       --badge-public-text: #5b3f94;
+  --badge-observing-bg: #e0f2ee;    --badge-observing-text: #1f6b5c;
+  --badge-workshop-bg: #fbefd9;     --badge-workshop-text: #875a12;
+  --badge-social-bg: #f8e3e8;       --badge-social-text: #8e3450;
+  --badge-trip-bg: #e6f2dc;         --badge-trip-text: #3f6b1f;
+
+  /* type */
+  --font: "Raleway", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
